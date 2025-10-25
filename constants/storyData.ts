@@ -6,7 +6,7 @@ type StoryData = {
 
 const RESTAURANT_BG = 'https://picsum.photos/seed/restaurant/1280/720';
 const CAMPUS_BG = 'https://picsum.photos/seed/campus/1280/720';
-const STATUE_BG = 'https://storage.googleapis.com/aistudio-hub-files/project-assets/5661b32d-2212-4f36-a19f-e6481dc457d5';
+const STATUE_BG = '/sankitizou.jpg';
 const ENDING_BG = 'https://picsum.photos/seed/ending/1280/720';
 
 export const storyData: StoryData = {
