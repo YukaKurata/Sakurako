@@ -7,6 +7,7 @@ type StoryData = {
 const RESTAURANT_BG = 'https://picsum.photos/seed/restaurant/1280/720';
 const CAMPUS_BG = 'https://picsum.photos/seed/campus/1280/720';
 const STATUE_BG = '/sankitizou.jpg';
+const AOYAMA_BG = '/aoyama.jpg';
 const ENDING_BG = 'https://picsum.photos/seed/ending/1280/720';
 
 export const storyData: StoryData = {
@@ -102,7 +103,7 @@ export const storyData: StoryData = {
       { speaker: 'ナレーション', dialogue: 'さらに彼女は、高カカオチョコレートをもうひとつ割り、それを2体の台座のあいだに、半分ずつ並べた。' },
     ],
     nextScene: 'KOGITO_RESONANCE',
-    backgroundImage: STATUE_BG,
+    backgroundImage: AOYAMA_BG,
   },
   KOGITO_RESONANCE: {
     text: [
