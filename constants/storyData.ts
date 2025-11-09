@@ -8,6 +8,8 @@ const RESTAURANT_BG = 'https://picsum.photos/seed/restaurant/1280/720';
 const CAMPUS_BG = 'https://picsum.photos/seed/campus/1280/720';
 const STATUE_BG = '/sankitizou.jpg';
 const AOYAMA_BG = '/aoyama.jpg';
+const NEW_STATUE_BG = '/statue.jpg';
+const FURUICHI_STATUE_BG = '/furuichi_statue.jpg';
 const ENDING_BG = 'https://picsum.photos/seed/ending/1280/720';
 
 export const storyData: StoryData = {
@@ -143,7 +145,7 @@ export const storyData: StoryData = {
       { text: 'ようかん', points: 1, nextScene: 'HAMAO_OFFERING_RESULT' },
       { text: '焼き芋', points: 0, nextScene: 'HAMAO_OFFERING_RESULT' },
     ],
-    backgroundImage: CAMPUS_BG,
+    backgroundImage: NEW_STATUE_BG,
   },
   HAMAO_OFFERING_RESULT: {
     text: [
@@ -193,7 +195,7 @@ export const storyData: StoryData = {
       { text: 'チョコレート', points: 1, nextScene: 'FURUICHI_OFFERING_RESULT' },
       { text: '🍊 清美（きよみ）オレンジ', points: 2, nextScene: 'FURUICHI_OFFERING_RESULT' },
     ],
-    backgroundImage: CAMPUS_BG,
+    backgroundImage: FURUICHI_STATUE_BG,
   },
   FURUICHI_OFFERING_RESULT: {
     text: [
